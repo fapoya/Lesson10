@@ -14,7 +14,7 @@ public class DbConnectSample06 {
         //Countryクラスにアクセスするため、CountryDAOをインスタンス化
         countryDAO dao = new countryDAO();
 
-        //検索用キーワードを入力
+        //検索用キーワードを入力　
         System.out.print("検索キーワードを入力してください > ");
         String name = keyIn();
 
